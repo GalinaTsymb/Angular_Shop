@@ -18,7 +18,7 @@
           <td class="quantity-wrapper">
             <button type="button" class="btn btn-outline-info size"><strong>-</strong></button>
             <p class="quantity-wrapper__number">{{item.quantityInCart}}</p>
-            <button type="button" (click)="plus(item)" class="btn btn-outline-info size"><strong>+</strong></button>
+            <button type="button" [disabled]="item.available <= 0" (click)="plus(item)" class="btn btn-outline-info size"><strong>+</strong></button>
           </td>
           <td>$ <span>{{item.price.toFixed(2)}}</span></td>
           <td>{{(item.quantityInCart * item.price).toFixed(2)}}</td>
@@ -29,7 +29,7 @@
           <th scope="col"></th>
           <th scope="col"></th>
           <th scope="col">Total sum</th>
-          <th scope="col">$ <span>{{totalCart}}</span></th>
+          <th scope="col">$ <span>{{totalCart.toFixed(2)}}</span></th>
         </tr>
         </thead>
       </table>

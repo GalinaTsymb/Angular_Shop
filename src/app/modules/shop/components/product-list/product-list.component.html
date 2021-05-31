@@ -13,7 +13,7 @@
               <p class="card-text">{{item.name}}</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" [routerLink]="['/cart']" (click)="addToCart(item)" id="{{item.id}}" class="btn btn-dark btn-outline-secondary">Add to cart</button>
+                  <button type="button" [disabled]="item.available <= 0" [routerLink]="['/cart']" (click)="addToCart(item)" id="{{item.id}}" class="btn btn-dark btn-outline-secondary">Add to cart</button>
                 </div>
               </div>
             </div>
