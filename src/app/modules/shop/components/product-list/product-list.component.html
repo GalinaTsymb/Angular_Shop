@@ -1,0 +1,26 @@
+<section class="productList">
+  <div class="productList__wrapper">
+    <div class="container">
+      <div class="cart-counter">
+        <strong><a routerLink="/cart" href="#">Cart(<span>{{countInCart || 0}}</span>)</a></strong>
+      </div>
+      <div class="row">
+        <div class="col-md-4 " *ngFor="let item of productsList">
+          <div class="card mb-4 shadow-sm">
+            <img class="bd-placeholder-img card-img-top"  height="325" src="{{item.srcImage}}" alt="products">
+            <div class="card-body">
+              <p class="card-text"><strong>${{item.price.toFixed(2)}}</strong></p>
+              <p class="card-text">{{item.name}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" [routerLink]="['/cart']" (click)="addToCart(item)" id="{{item.id}}" class="btn btn-dark btn-outline-secondary">Add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

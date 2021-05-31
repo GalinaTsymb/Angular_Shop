@@ -1,0 +1,11 @@
+.productList{
+  padding: 30px 0;
+}
+.card{
+  padding: 20px 50px;
+}
+.cart-counter{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 5,
+    "name": "Book",
+    "price": 142.99,
+    "available": 10,
+    "srcImage": "https://camo.githubusercontent.com/f4973e4782f2ac473103c179daab29aaeda0c83c67d2610e1374adecbfd43f0e/68747470733a2f2f616e67756c61722d61636164656d792e73332e616d617a6f6e6177732e636f6d2f636f757273652d6c6f676f732f616e67756c61722d33642d636f7665722d76322d736d616c6c2e706e67",
+    "quantityInCart": 0
+  },
+  {
+    "id": 7,
+    "name": "Spoon",
+    "price": 15,
+    "available": 5,
+    "srcImage": "https://berghoff-ua.com/system/0078/0085/1211176-1.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 8,
+    "name": "Phone",
+    "price": 38.75,
+    "available": 3,
+    "srcImage": "https://img.mvideo.ru/Pdb/30041492b.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 9,
+    "name": "Key",
+    "price": 153,
+    "available": 0,
+    "srcImage": "https://market.my.games/s3/media/product/picture/2020/3/abb587a50ef2b22d00a73d2e45e4a205.png",
+    "quantityInCart": 0
+  },
+  {
+    "id": 15,
+    "name": "Pen",
+    "price": 15,
+    "available": 1000,
+    "srcImage": "https://images.ua.prom.st/2230004833_w700_h500_3d3d-ruchka-s.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 18,
+    "name": "Skirt",
+    "price": 5,
+    "available": 18,
+    "srcImage": "https://i.pinimg.com/originals/52/d9/78/52d978333edfbf597d5b864bc18bc90f.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 6,
+    "name": "TV LG",
+    "price": 142.99,
+    "available": 10,
+    "srcImage": "https://fainaidea.com/wp-content/uploads/2017/07/televizor_samsung_ue32es5507v.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 1,
+    "name": "Cup",
+    "price": 15,
+    "available": 5,
+    "srcImage": "https://progifts.com.ua/uploads/shop/products/large/5e5c45fd2252baa0573fd48d5e100908.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 2,
+    "name": "Tea",
+    "price": 38.75,
+    "available": 3,
+    "srcImage": "https://выпейменя.рф/wp-content/uploads/2019/06/marokkanskij-tchaj-retsept.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 3,
+    "name": "Coffee",
+    "price": 153,
+    "available": 0,
+    "srcImage": "https://feofanivska.com.ua/wp-content/uploads/2018/03/987-1247-Kofe-Qkobs-Monarh-rastvorim%D1%8Bj-120-g.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 4,
+    "name": "Tomato",
+    "price": 15,
+    "available": 1000,
+    "srcImage": "https://moya-dacha.com.ua/wp-content/uploads/2019/09/Tomat-YAponskaya-roza.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 11,
+    "name": "Pensil",
+    "price": 5,
+    "available": 18,
+    "srcImage": "https://st.depositphotos.com/1223903/3541/v/600/depositphotos_35415511-stock-illustration-pencil-icon.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 13,
+    "name": "Potato",
+    "price": 153,
+    "available": 0,
+    "srcImage": "https://agrostory.com/upload/iblock/d53/d533a2a6ab9e7a43ad90c3baa6e37046.jpg",
+    "quantityInCart": 0
+  },
+  {
+    "id": 14,
+    "name": "Hat",
+    "price": 15,
+    "available": 1000,
+    "srcImage": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIQERIRFhISEhgREREQERgVHBgZEhISGBgZGhgUGhgcIS4lHB4rHxgYJjgmODAxNTU1GiQ9QDtAPzA0NTEBDAwMEA8QHhISHzUrJSw2ND80PjE0Nj80PT80NDE0ODQ0MTc4Nz00MTQ1NDQ1NDU1NzQxNzQ9PzQ0Pz04NTQ0NP/AABEIAN8A4gMBIgACEQEDEQH/xAAcAAABBAMBAAAAAAAAAAAAAAAAAQIDBQYHCAT/xABIEAACAQICBQkEBgYHCQAAAAABAgADBAURBxIhMUEGEyIyUWFxgZFCUpKhFHKCscHRI0NiotLwFSQzU7LD4URjZHODk7PC8f/EABoBAQACAwEAAAAAAAAAAAAAAAADBAECBQb/xAA1EQEAAQIDBAcDDQAAAAAAAAAAAQIDBBEhBTFRoRJBYXGRwdETIkIGFDJSYoGCkrHC4fDx/9oADAMBAAIRAxEAPwDc0IQgEIQgEIQgEJQY5yusLDMV7qkjDeinXq93QXNh4kZTAcX010lzW2tHqbwGrMEXuIRdYkeYgbdkNeulNS7sqKN5YhVHmZzjiulHFrnMCutupGRWgoX0dtZh8UxO8vatdterVqVm96ozO3qxMDpTEdIeE2+xryk54CjrVc/NAQPWYxf6aLRcxRtbiqRuLlKaHvzBY5eU0aIogbOvdMl85/RW9tSH7WvUf1zUfKUV1pFxernneMgPCmlNAPAhdb5zERHiBa1sfvanXvLt8/erVMvTWynles77Wd3+sSx+c8yyVYE1Nyu0Eg9xyMsbfF7pMtS6uky9yrUX7mlWslUwMrsuXWJ0ssrt3A9moqOD4ll1vnMowvStXUgXFvTccWpEowHbqsWDHzE1ihk6mB0bgWO29/T5yi+sBkHU7HRuxl4eO48DLac/8iMWa0vqDgkLUqLQqjgyOQuZ+qSG+z3zoCAQhCAQhCAQhCAQhCAQhCASGvWWmjO7KiqCzMxAVQN5JOwCYLyx0m2mH61KlldVxmpVG/RU2Gw67jPaNvRGZ2ZHKaR5S8rb3E21q9UlQc1pr0aKeCcT3nM98DcfKXS7ZW2aW6teONmsDq0AfrkZt5DI9s1Xj2kPEr7NXuDSQ+xQzpp4Eg6zDuLETEoQFixIsBRHCNEUQHCKIgiiA8R4kYjxAkWPWRrHrAmWSKZEsesD0KZKhkCGSoYE6uV6Q3r0h4jbOnUbMA9oB9ZzDwPgZ0thtTXoUX96lTb1UGB64QhAIQhAIQhAIQhA8t9eU7em9aq600pgs7Mcgo/nhxmh+XmlCtel7e1LW9v1SwJWtXHHMjqIfdG0jeduqPFpQ5ZviNy9ujEW9vUZUA3VXUlTVbLeN+r2DvJmBQCEIQCEBCAsURoj1Uk5AEnsG0wEEcJ6qOHVX9gjvbZ8jtk30FE69ZQRvVek38+UDwCSUabOclVm8Bn/APJ6vpFFOpSLH3qhz89UbPujKt/UYZa2qPdXoj5bYDvomp13RO7rP8K/nDnKa9VC3e/4KNnrnPKI8QJS5befyHgBuirGCOWBKskWRLJFgTLJUMhUyVDA9CGdEckKuvh1k3/C0AfFUAP3TnVDN+aOK2vhVqfdFVPhqOo+QEDKIQhAIQhAIQhAIQhA4+u6Bt69SkwDGlUekwPEoxU+B2SRaFB+rUNM9jjMfENkyjS3hH0XFqzAZLchbpMu18xU89dXPmJhECy/oknq1KbeZ/ARRg78XpjzP5SshAtP6MQdaug9PzhzFqu+o7dyjZ934yrhAtPpVsnVolvrbvmTBsXcbERKY7hn/p8pVxYHorXTv1nY924eg2SERIogKI4RojhAUR4jBHCBII9ZGI8QJFkqyFZIsCVTJlMgWTIYEyGbv0S1tbDdX+7uKyeuq/8A7zR6Gbe0M1s7e7p+7XSp8aBf8uBsmEIQCEIQCEIQCEIQNa6a8B+k2C3Srm9kxZst5ovkr7O4hD3ANOfZ2Lc26Vab0nUMlRHpup3MrAhlPcQTOT+U2ENYXle1bM8zUKqT7SHpI3mpB84FVCEIBCEBAIoiQgKIoiRYDhFEaI4QHCKIgiiA8R4kYjxAkWSLIlkiwJVkqmQrJVMCZDNm6GK2Ve8p+/Sov8DOP8wTWKmZzomuNTEwuf8AaW9an4kFH+6mYG8YQhAIQhAIQhAIQhAJpvTvgWYt8QVd39Wr5dhzamx7NuuM+9RNySr5R4Ql/aXFq2WVamyKTt1X3o3kwU+UDkeEmuaD0nem6lWpuyOp3q6khgfAgyGAQhCAQhCAsWJFgKIoiRRAcIoiCKIDxHiRiPECRY9ZGI9YEqyRZEskWBOpmR8g7jm8Tsm3fpub/wC4jUx/jmNKZ7MPueZrUqv91Vp1fgcN+EDqGESLAIQhAIQhAIQhAIQhA5501YF9GxAXCjJL1Oc7hWTIOPPot4sZrmdMaVMC+nYXW1RnUtv6zSy3nUB1wMt+aFtnblOZ4BCEIAIQhAUQESLAURwjYogOEcI0RRAcI8RgjhAkEesjEesCVY9ZGskWBMslAzGXaMpApkymB0vydu+fsrWtxq21Fz9YoCR65yzmI6MLnnMKoAnM02q0j4K7ao+ErMugEIQgEIQgEIQgEIQgNIz2Tlblzgn9H4jc24GSB+co9nNP0kA7cgdXPtUzquai074Jr0qF+q7aTfR6xA282xJQk9gbWH24GkIQhAIQhAIsSLAWLEiiAojhGiKIDhHCNEcIDxJBIxHiA9ZKshWSrAlWSqZAsmUwNw6FrrO3u6Oe1K6VcuwOgX76RmzJpXQ3d6l9VpcK1sW+3Tdch6O/pN1QCEIQCEIQCEIQCEIQCVfKPClvrO4tWyyrUmQE7Qr70byYKfKWkIHHFek1N2RgVZGKsDvDA5EHzEimd6YMF+i4pUqKMkuwLhchs1zsqDPidYFj9cTBIBAQhAIoiQgKIoiRYDhFEaI4QHCKI0RRAkEeJGI8QHrJFkaxwaBOslXs7YlnRaqeiNg6xPVWXFtbrT3b/aJ/DsEhu36benW6WB2XexfvR7tHGf2x1zyjjnGS65CIaGIWzk9I1BTyGwKHyRs+3rfKb9nOdvUKOpByyYMD3g55yK55Y4o5YPfV9hI6BWntBy/VhZFhrtVc1dJc23gbeFi17KNMpieOmucz25+W7J0jCcwnHLxtpvbw+Net/HJaeOXi7ry8H/Xrfxy24LpmE5+w/lxidEgi7dwN61QrhvEsNb0ImxuSGkCneutCsi0KzbEIP6Kq3ujPardinPPgc9kDO4QhAIQhAIQhA1npwwjnsPS5A6VpVBJ481UyRh8XNnyM5/nXuNYet3bV7Ztgr0qlIn3dZSA3iDkfKcj16LU3amwKsjMjA7wwORHrAihCEAhFiQFixIogLFEaI4QHCOEYJJTUscgCx7hmYIjOcoAjwZ7KOFVG3kUx37W9BulhQw2mm3+0P7W70kNd+intdLD7JxV74ejH2tOW/kqaFB6mxVJ7+A8+EtbbCkG1zrnsHV+W0z3d20COlS5ia6tI0/vF6DCbFw9rKq5789u78vrmcMsssiAu4LuEURojhKsu7SUSpxCnlVb9oK3mVGfzlpVqqi67buA4luwSkeoXYsd7HP8A0lzB0znNXU858o79v2dFn4s8+6MpjXvz0KJIsjWSLL7yaVZKhIIIJBBBBGwgjcQeBkSyVYG4LDSFT5mlzhBfm6fObDtfVGt884TE7DkLVr0aVYA5VaVOqPBlDfjCBuuEIQCEIQCc1aQ8D5rE7wKctes1bbuPOgVN/i5HlOir+/o2yGrWqpRQb2dgq58BmePdNGaQsetMQuxVtnLhKaUqjFSqs2bkFdbInZs3DcJHcmYjOFzA0UXLvQrjOJieWvk129jUHsk+G2R/R39xvSXwigyH288HSnZVqZ0qnl6KDmH9xvQxfo9T3G9JfgxwMfOJ4Mxse39aeSgFnVP6tvT85KuG1j7I82X85dxRNZxFXCElOxrHXVVy9FSMJqH2lHjn+U9FPCFz2ux+zl+csBFE0m/XPWt0bLwtPw598z6oKNhSX2c/rHWPpunqQZDVHRHYuwRBFEhqqmd8uhatUWtLdMR3QWOEbHCaLEHCOEaoJ3DOQVr+mnHWPYnHxO6IpmqcoLl63Zp6VyqIjt8uM9kPWozM89zepT2bHb3R1R4mVVxiNSpsz1R2Lx8WnmWW7eE66/D+Xn8Zt/P3cNH4p8o9fB6a1dqh1mOfZ2AdgiLI1j1lyIiIyh5uuqquqaqpzmd+aVY9YxY9ZlqmWXHJvBXxC5S3TMBjrVXH6ukD0m8eA7SRPNgeEVr6stCimsx2sTsSmnFnbgv37htm+OS/JyjhtHm06TNk1aoRk1R/wUbcl4eJJIW9GgqKqKqhVUKo7FAyAhJoQCEJDXrLTR6jsEVFZ3YnJVVRmzE8AACYDqjqilmIUKCzEnIADaSSdwmqOWGl2nRLUbJVrOMw1Z8+ZU7uguwvx6WwbusJhmkTSBVxN2oUmanaq3RAzDVyDsd+7iF4bCdu7AYFji+MXN9U524rPWbbkWOxQeCqNijuAAjcMfJ8u0E+Y2/gZ4JJTqFWDDeDnNaozpmEti57O7TXwn/eTIBFE8dPEUPW1lPxL/PlPQtwh9tfMkffKU0VRvh6e3iLVetNUePklEcJGKqn2l+JYvOL76fEs1yWYmD44SM1UHtU/URGu6Y/WKPIt/hmOjM7oZm5RTrVVEd8wnEUTxNidEe0x+qP4pE2MLwpk+J/OZi1XPUiq2hhaN9cfdr+ma0EcoJ4GUT4tVO4In1VBPznmqV3frMzeJ2ek3jDVTv0V7m27FP0KZq5R68mRVLqmm918B0j8tk8VbGB7FPPvf8AhEpxHCTU4aiN+rnXtt4mvSjKmOzWfGfKIemtd1KnWbZ2DIJ6CRCNEcJPERGkOVXcruVdKuZmeMznPM8RwjBHiZaJFj1jFnrsLOrc1FpUqb1XbqqgzbLtPYO85AdsCNZk3JPklc4mwKDm6IbKpWYdAZb1Qe23duHEjjmfJTRaq6tW9YOdhFBD+jB/3jjrcOiMhv2sJtCjSVFVFUIqgKqqAFAG4ADYBAreT+AW+H0RRorkN7s216je8zcT3bhwAlvCEAhCEAmuNNmLNb4atFTkbuqKbcDzSjXbLxIQHuJmx5qbT5aM1raVhnlTr1Kbd3OICCfgPrA0ZCEIBCEIBAQgIBCEIYyguUWJFhnIsWJFgKIoiCKICiOEaI4QHCPEaozIA2knIAbSSdwA4mZbgmjzE7zIi3NBT7dx+jHwZFj8OXfAxYT2Ybh9a6fm6NJ6z7OiiliM+LHco7zkJuTA9ENrSya5qvdMPZXOnR8wp1j8QHdNg2GH0bZBTo0kooNyooVc/Ace+BqXk5okqNqveVBSXYeaokGoe56nVXvA1u5ptPB8FtrFObt6KUl2a2qOk5HtMx6THvJMsoQCEIQCEIQCEIQCVnKDB6V/bVbWqDq1VyzG9WBzVh3ggHylnCBylyq5LXOFVjSrIdUk81UAPNVV7VPA9q7x6E0E7DvbKlcI1KrTSqjdZXAZT5Ga8xvQ9YViWoVKtoTsA/tKQP1WOt+9lA5/hNn32ha/Qnmq9tVXhrF0c/Z1SP3pRXWjPF6WedqCBxWrRyPq4PygYbAS2vOTt3Qz5ylq5b+kh+5jKpgRsgJCeihavUOSrmfED7zLi25HX9XqW+tn+3SH3tAoIszS10W4vU/2ZUB4tVpZfusT8pcWuhjEGI161rTHczsw8ggHzga0izc1loRQHOrfMw7KdMKfiZj90yGx0RYVT6y17j/mVCP/ABhYHPOcssNwG8usuYta9YE5BlRinm2WqPWdNYdyWw+2yNKztkI3NqKXH2yC3zl3A57wnRHidbI1OZtVz267a9TLtCpmD4FhM2wnQ5ZU8jXrVrkjeFypUz5Lm3702dCBVYRyfs7IZW9tSonLIsqjnGH7TnpN5mWsIQCEIQCEIQCEIQCEIQCEIQP/2Q==",
+    "quantityInCart": 0
+  },
+  {
+    "id": 16,
+    "name": "Сap",
+    "price": 5,
+    "available": 18,
+    "srcImage": "https://s3.eu-central-1.amazonaws.com/helen-marlen/catalog/product/cache/1/image/400x/040ec09b1e35df139433887a97daa66f/b/4/b487dd61dd08812bea700ba041e4c4ff.jpg",
+    "quantityInCart": 0
+  }
+]

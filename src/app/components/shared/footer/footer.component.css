@@ -1,0 +1,16 @@
+p {
+  font-size: 0.8rem;
+  vertical-align: center;
+  color: #6c757d;
+  margin: 0;
+}
+footer{
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+hr{
+  margin: 0;
+}

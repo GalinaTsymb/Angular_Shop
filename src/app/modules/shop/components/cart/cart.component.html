@@ -1,0 +1,42 @@
+<section class="cart">
+  <div class="container">
+    <h2> Cart (<span>{{countInCart || 0}}</span>)</h2>
+    <div class="cart__products-wrapper">
+      <div *ngIf="cartItems.length === 0" class="alert alert-info">Your cart is Empty</div>
+      <table class="table table-secondary">
+        <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Quantity</th>
+          <th scope="col">Price</th>
+          <th scope="col">Total</th>
+        </tr>
+        </thead>
+        <tbody  *ngFor="let item of cartItems">
+        <tr>
+          <th scope="row">{{item.name}}</th>
+          <td class="quantity-wrapper">
+            <button type="button" class="btn btn-outline-info size"><strong>-</strong></button>
+            <p class="quantity-wrapper__number">{{item.quantityInCart}}</p>
+            <button type="button" (click)="plus(item)" class="btn btn-outline-info size"><strong>+</strong></button>
+          </td>
+          <td>$ <span>{{item.price.toFixed(2)}}</span></td>
+          <td>{{(item.quantityInCart * item.price).toFixed(2)}}</td>
+        </tr>
+        </tbody>
+        <thead>
+        <!--<tr *ngIf="cartItems.length > 0">
+          <th scope="col"></th>
+          <th scope="col"></th>
+          <th scope="col">Total sum</th>
+          <th scope="col">$ <span>0.00</span></th>
+        </tr>-->
+        </thead>
+      </table>
+    </div>
+    <div class="cart__buttons-wrapper">
+      <button [routerLink]="['/']" class="btn btn-secondary  btn-lg"> Сontinue Shopping</button>
+      <button [disabled]="cartItems.length <= 0" class="btn btn-primary btn-lg">Checkout</button>
+    </div>
+  </div>
+</section>
