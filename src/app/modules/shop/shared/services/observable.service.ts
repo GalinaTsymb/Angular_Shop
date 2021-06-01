@@ -11,7 +11,7 @@ import {ProductService} from './product.service';
 })
 export class ObservableService {
 
-  value = 1;
+  value = 0;
   inventorySubject$ = new ReplaySubject();
   getProd$          = new ReplaySubject();
   getCounter        = new ReplaySubject();
@@ -23,6 +23,14 @@ export class ObservableService {
   // tslint:disable-next-line:typedef
   addToInventory(product: Product) {
     this.inventorySubject$.next(product);
-    this.getCounter.next(this.value++);
+    this.value++;
+    this.getCounter.next(this.value);
+  }
+
+  // tslint:disable-next-line:typedef
+  deleteToInventory(product: Product){
+    this.value--;
+    this.getCounter.next(this.value);
+    this.inventorySubject$.next(product);
   }
 }

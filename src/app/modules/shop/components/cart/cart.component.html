@@ -16,7 +16,7 @@
         <tr>
           <th scope="row">{{item.name}}</th>
           <td class="quantity-wrapper">
-            <button type="button" class="btn btn-outline-info size"><strong>-</strong></button>
+            <button type="button" (click)="minus(item)" [disabled]="item.quantityInCart <= 0" class="btn btn-outline-info size"><strong>-</strong></button>
             <p class="quantity-wrapper__number">{{item.quantityInCart}}</p>
             <button type="button" [disabled]="item.available <= 0" (click)="plus(item)" class="btn btn-outline-info size"><strong>+</strong></button>
           </td>

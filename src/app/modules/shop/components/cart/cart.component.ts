@@ -3,6 +3,7 @@ import {Product} from '../../shared/product';
 import {ObservableService} from '../../shared/services/observable.service';
 
 
+
 @Component({
   selector: 'app-cart',
   templateUrl: './cart.component.html',
@@ -32,7 +33,7 @@ export class CartComponent implements OnInit  {
     this.observableService.getProd$.subscribe( (product: Product) => {
       this.productsList = product;
     });
-    this.updateTotalCart();
+    this.updatePlusTotalCart();
   }
 
   // tslint:disable-next-line:typedef
@@ -43,17 +44,38 @@ export class CartComponent implements OnInit  {
         item.available--;
         item.quantityInCart++;
         this.observableService.addToInventory(item);
-        this.updateTotalCart();
+        this.updatePlusTotalCart();
       }
     });
   }
 
   // tslint:disable-next-line:typedef
-  updateTotalCart() {
-    console.log('cartItems', this.cartItems);
+  minus(product){
+    this.productsList.map((item) => {
+      if (item.id === product.id){
+        item.available++;
+        item.quantityInCart--;
+        this.observableService.deleteToInventory(item);
+        if (item.quantityInCart <= 0 && this.cartItems.find(it => it.id === item.id)){
+          const index = this.cartItems.indexOf(this.cartItems.find(it => it.id === item.id));
+          this.cartItems.splice(index, 1);
+        }
+        this.updateMinusTotalCart(item.price);
+      }
+    });
+
+  }
+
+  // tslint:disable-next-line:typedef
+  updatePlusTotalCart() {
     this.cartItems.forEach(item => {
       this.totalCart += (item.quantityInCart * item.price);
     });
+  }
+
+  // tslint:disable-next-line:typedef
+  updateMinusTotalCart(price) {
+    this.totalCart -= price;
   }
 }
 
