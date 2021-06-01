@@ -1,0 +1,51 @@
+<section class="checkout">
+  <div class="container">
+    <h2>Please, fill in your details</h2>
+    <form [formGroup]="checkautForm">
+      <div class="form-group">
+        <label for="inputName">Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputName"
+          formControlName="name">
+      </div>
+      <div class="form-group">
+        <label for="inputSurname">Surname</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputSurname"
+          formControlName="surname">
+      </div>
+      <div class="form-group">
+        <label for="inputTel">Telephone</label>
+        <input
+          type="tel"
+          class="form-control"
+          id="inputTel"
+          aria-describedby="telHelp"
+          formControlName="tel"
+          placeholder="80675145628">
+        <small id="telHelp" class="form-text text-muted">We'll never share your telephone with anyone else.</small>
+        <div class="errors" *ngIf="checkautForm.controls.tel.status === 'INVALID'" >
+          <div *ngIf="fieldTel" class="notValid">field not valid</div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="inputEmail"
+          aria-describedby="emailHelp"
+          formControlName="email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="errors" *ngIf="checkautForm.controls.email.status === 'INVALID'" >
+          <div *ngIf="fieldEmail" class="notValid">field not valid</div>
+        </div>
+      </div>
+      <button type="submit" [routerLink]="['/thanks']" [disabled]="checkautForm.status === 'INVALID'" (click)="submitAction($event)" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</section>

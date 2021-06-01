@@ -1,7 +1,7 @@
 export class LocaleStorage {
 
   // tslint:disable-next-line:typedef
-  setProductlocaleStorage(object){
+  setCartlocaleStorage(object){
     localStorage.setItem('product', JSON.stringify(object));
   }
 
